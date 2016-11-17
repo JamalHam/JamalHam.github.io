@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-logo-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-974.000000, -5272.000000)" fill="#4A4A4A">
+            <g id="facebook-logo-button" transform="translate(974.000000, 5272.000000)">
+                <path d="M19.859,0.278 C8.91,0.278 0,9.189 0,20.138 C0,31.091 8.91,40.001 19.859,40.001 C30.812,40.001 39.723,31.091 39.723,20.138 C39.723,9.189 30.812,0.278 19.859,0.278 L19.859,0.278 Z M24.801,20.837 L21.57,20.837 L21.57,32.357 L16.781,32.357 L16.781,20.837 L14.504,20.837 L14.504,16.767 L16.781,16.767 L16.781,14.134 C16.781,12.251 17.676,9.302 21.613,9.302 L25.16,9.317 L25.16,13.267 L22.586,13.267 C22.164,13.267 21.57,13.478 21.57,14.376 L21.57,16.771 L25.219,16.771 L24.801,20.837 Z" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>
