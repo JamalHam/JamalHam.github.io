@@ -100,7 +100,7 @@ footer.row{
         
 }
     
-    .home-pic{
+   //* .home-pic{
         background-image: url(../images/gallery/DSC_1129.JPG);
         background-repeat: no-repeat;
         background-attachment:fixed;
@@ -108,10 +108,10 @@ footer.row{
         background-size:cover;
         height: 800px;
         /* width: 1420px;*/
-        margin-left: ;
+       //* margin-left: ;
         margin-top: 50px;
 
-}
+}*//
 
    
 #embed-responsive embed-responsive-16by9{
@@ -262,7 +262,7 @@ footer h5{
     }
     .parallax-container{}
 
-@media screen and (min-width: 1921px) and (max-width: 2560px) {
+@media screen and (max-width: 2560px) {
       .home-pic{
     background-image: url(../images/gallery/DSC_1129.JPG);
     background-repeat: no-repeat;
@@ -275,7 +275,7 @@ footer h5{
     margin-top: 50px;
 }
 
-@media screen and (min-width: 1681px) and (max-width: 1920px) {
+@media screen and (max-width: 1920px) {
     .home-pic{
     background-image: url(../images/gallery/DSC_1129.JPG);
     background-repeat: no-repeat;
@@ -289,7 +289,7 @@ footer h5{
 }
 }
     
-@media screen and (min-width: 1441px) and (max-width: 1680px) {
+@media screen and (max-width: 1680px) {
     .home-pic{
     background-image: url(../images/gallery/DSC_1129.JPG);
     background-repeat: no-repeat;
@@ -302,7 +302,7 @@ footer h5{
     margin-top: 50px;
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1440px) {
+@media screen (max-width: 1440px) {
     .home-pic{
     background-image: url(../images/gallery/DSC_1129.JPG);
     background-repeat: no-repeat;
@@ -316,7 +316,7 @@ footer h5{
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
     .youtubevid {
         /*width: 960px;
         height: 540px; /* 720px */
@@ -340,7 +340,7 @@ footer h5{
 
 }
 
-@media screen and (min-width: 767px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .youtubevid {
         width: 640px;
         height: 360px; /* 480px */
@@ -381,7 +381,7 @@ footer h5{
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 766px) {
+@media screen and (max-width: 766px) {
     .youtubevid {
         width: 480px;
         height: 270px; /* 320px */
@@ -416,7 +416,7 @@ footer h5{
     
 }
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .youtubevid {
         width: 300px;
         height: 169px; /* 225px */
