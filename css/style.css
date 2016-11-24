@@ -262,7 +262,7 @@ footer h5{
     }
     .parallax-container{}
 
-@media screen and (max-width: 2560px) {
+@media screen and (max-width: 160em) {
       .home-pic{
     background-image: url(../images/gallery/DSC_1129.JPG);
     background-repeat: no-repeat;
@@ -275,7 +275,7 @@ footer h5{
     margin-top: 50px;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 120em) {
     .home-pic{
     background-image: url(../images/gallery/DSC_1129.JPG);
     background-repeat: no-repeat;
@@ -289,7 +289,7 @@ footer h5{
 }
 }
     
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 105em) {
     .home-pic{
     background-image: url(../images/gallery/DSC_1129.JPG);
     background-repeat: no-repeat;
@@ -302,7 +302,7 @@ footer h5{
     margin-top: 50px;
 }
 
-@media screen (max-width: 1440px) {
+@media screen (max-width: 90em) {
     .home-pic{
     background-image: url(../images/gallery/DSC_1129.JPG);
     background-repeat: no-repeat;
@@ -316,7 +316,7 @@ footer h5{
 
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 80em) {
     .youtubevid {
         /*width: 960px;
         height: 540px; /* 720px */
@@ -340,7 +340,7 @@ footer h5{
 
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 62em) {
     .youtubevid {
         width: 640px;
         height: 360px; /* 480px */
@@ -381,7 +381,7 @@ footer h5{
     }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 48em) {
     .youtubevid {
         width: 480px;
         height: 270px; /* 320px */
@@ -416,7 +416,7 @@ footer h5{
     
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30em) {
     .youtubevid {
         width: 300px;
         height: 169px; /* 225px */
