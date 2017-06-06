@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF­8">
+
+<title></title>
+    
+    <style>
+        .hideable{
+            display: none
+        }
+        
+        img{
+            height: 480px;
+            width: 640px;
+        }
+    </style>
+    
+ <script>
+   function toggleSlide(direction) {
+       
+    var elements = document.getElementsByClassName("hideable"); // gets all the "slides" in our slideshow
+    // Find the LI that's currently displayed
+    var visibleID = getVisible(elements);
+       
+    elements[visibleID].style.display = "none"; // hide the currently visible LI
+       
+    if(!direction) {
+        var makeVisible = prev(visibleID, elements.length); // get the previous cc
+    } else {
+        var makeVisible = next(visibleID, elements.length); // get the next slide
+    }
+    elements[makeVisible].style.display = "block"; // show the previous or next slide
+}
+function getVisible(elements) {
+    var visibleID = -1;
+    for(var i = 0; i < elements.length; i++) {
+        if(elements[i].style.display == "block") {
+            visibleID = i;
+        }
+    }
+    return visibleID;
+}
+function prev(num, arrayLength) {
+    if(num == 0) return arrayLength-1;
+    else return num-1;
+}
+function next(num, arrayLength) {
+    if(num == arrayLength-1) return 0;
+    else return num+1;
+}
+    </script>
+</head>
+
+    
+    
+<body>
+    
+    <ul style = "list-style-type: none; margin-left: -2em;">
+        <li id="1" class="hideable" style="display: block;"><img src="images/background.jpg"></li>
+        <li id="2" class="hideable"><img src="images/berries.jpg"></li>
+        <li id="3" class="hideable"><img src="images/cheetah.jpg"></li>
+        <li id="3" class="hideable"><img src="images/fence.jpg"></li>
+    </ul>
+    
+    <form>
+        <input type="button" value="Back" onclick="toggleSlide(false)">
+        <input type="button" value="Forward" onclick="toggleSlide(true)">
+    </form>
+    
+   
+</body>
+
+</html>
