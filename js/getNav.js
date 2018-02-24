@@ -1,4 +1,4 @@
-$.get("https://JamalHam.github.io/partials/nav.html", function(data){
+$.get("http://jamalhmedia.com/partials/nav.html", function(data){
 
     $(document).ready(function(){
 
