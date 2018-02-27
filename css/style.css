@@ -6,7 +6,7 @@ transform: none;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
-
+/* Mobile First Styling*/
 svg {
   display: inline-block;
   position: absolute;
@@ -47,7 +47,7 @@ svg {
 
 h3{
    font-family: 'Roboto:700', sans-serif;
-    font-size: 24px;
+    font-size: 32px;
     position: relative;
     text-align: center;
     color: #8c8c8c; 
@@ -64,10 +64,36 @@ p{
     margin: 0 auto;
     padding-top: 20px;
 }
-
-p:not{
+.about-p{
+    padding-bottom: 40px;
+}
+/*.about-p:not(:last-child){
+    margin-top: 30px;
 	border: 1px solid #8c8c8c;
 	border-top: 0;
 	border-left: 0;
 	border-right: 0;
+}*/
+
+#skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.sub-skill img{
+    width: 20%;
+    height: auto;
+}
+
+.sub-skill{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+}
+
+.sub-skill p{
+    width: 70%;
 }
