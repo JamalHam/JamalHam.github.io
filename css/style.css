@@ -7,15 +7,27 @@ transform: none;
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
 /* Mobile First Styling*/
-svg {
+#svg1 {
   display: inline-block;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
   /*fill: linear-gradient(135deg, #a90329 0%,#8f0222 44%,#6d0019 100%);*/
-    fill: #a90329;
+  fill: #a90329;
 }
+
+#svg2 {
+  display: inline-block;
+  position:inherit;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  fill: #a90329;
+  margin-top: -64px;
+  margin-bottom: -20px;  
+}
+
 .header {
   display: inline-block;
   position: relative;
@@ -102,6 +114,7 @@ p{
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 48px;
 }
 .sample-work img{
     width: 80%;
@@ -126,6 +139,7 @@ p{
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .btn:hover {
@@ -133,4 +147,90 @@ p{
   text-decoration: none;
   transition: all 0.3s ease;
 
+}
+
+@media (min-width: 500px){
+.header{
+    padding-top: 325px;    
+    }
+}
+
+@media (min-width: 600px){
+.header{
+    padding-top: 350px;    
+    }
+}
+
+@media (min-width: 700px){
+.header{
+    padding-top: 400px;    
+    }
+}
+
+@media (min-width: 800px){
+.header{
+    padding-top: 500px;    
+    }
+#svg2 {
+  display: inline-block;
+  position:inherit;
+  margin-top: -225px;
+  margin-bottom: -100px;  
+}    
+h3{
+    font-size: 40px;    
+    }  
+    
+#skills h3{
+    width: 100%;
+    padding-bottom: 40px;
+    } 
+    
+#skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+} 
+#skill-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    } 
+.sub-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    }
+.sub-skill img{
+    margin: 0 auto;  
+    width: 50%
+    }  
+#projects h3{
+    padding-top: 50px;    
+    } 
+.sample-work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 48px;
+}
+.sample-work img{
+    width:250px;
+    height: 275px;
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+    margin: 0 auto;
+}    
+.sample-work p{
+    width: 40%;    
+    } 
+.btn{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin: 0 
+    }    
 }
