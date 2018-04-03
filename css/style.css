@@ -17,12 +17,19 @@ transform: none;
   fill: #a90329;
 }
 
+.d-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
 #svg2 {
   display: inline-block;
   position:inherit;
   top: 0;
   left: 0;
   z-index: -1;
+  margin-bottom: -100px;
   /*fill: #a90329;
   margin-top: -64px;
   margin-bottom: -20px;*/  
@@ -39,11 +46,12 @@ transform: none;
 }
 
 footer{
-   display: inline-block;
+  display: inline-block;
   position: relative;
   width: 100%;
   padding-top: 0px;
   vertical-align: middle;
+  overflow: inherit;
 }
 
 .header h1{
@@ -182,7 +190,7 @@ p{
     padding-top: 500px;    
     }
 .about-p{
-    width:900px;
+    width:80%;
     padding-bottom: 100px;
     }    
 #svg2 {
@@ -205,13 +213,14 @@ h3{
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
-    width: 900px;
+    width: 80%;
 } 
 #skill-layout{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     } 
+    
 .sub-skill{
     display: flex;
     flex-direction: column;
@@ -231,6 +240,8 @@ h3{
     justify-content: space-between;
     flex-wrap: nowrap;
     padding-top: 48px;
+    width: 80%;
+    margin: 0 auto;
 }
     
 .btn{
@@ -252,7 +263,11 @@ h3{
 }    
 .sample-work p{
     width: 70%;    
-    } 
+    }
+.header h1{
+    margin-top: -400px;
+    margin-left: -100px;
+    }    
 /*.btn{
     margin-left: 200px;
     margin-right: 200px;
