@@ -43,6 +43,8 @@ transform: none;
   /*padding-bottom: 100%;*/
   vertical-align: middle;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;  
 }
 
 footer{
@@ -60,7 +62,7 @@ footer{
     position: relative;
     text-align: center;
     color: white;
-    margin-top: -200px;
+    margin-top: -224px;
     z-index: 200px;
 }
 
@@ -109,6 +111,8 @@ p{
     flex-direction: column;
     margin: 0 auto;
     width: 90%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .sub-skill img{
@@ -162,8 +166,30 @@ p{
   background: #b3042f;
   text-decoration: none;
   transition: all 0.3s ease;
-
 }
+
+.btn-2{
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: skyblue;
+  font-size: 18px;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;    
+}
+
+.btn-2:hover {
+  background: #f9f9f9;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
 #intro{
     display: flex;
     flex-direction: column;
@@ -186,6 +212,9 @@ p{
 @media (min-width: 500px){
 .header{
     padding-top: 325px;    
+    }
+    header h1{
+        margin-top: -240px;
     }
 }
 
@@ -228,7 +257,7 @@ h3{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    padding-top: 50px; 
+    padding-top: 24px; 
     width: 75%;
     margin: 0 auto;
 }
@@ -345,4 +374,23 @@ footer{
 .header h1{
     margin-top: -600px;
     }    
+}
+}
+@media (min-width: 1400px){
+    .header{
+        padding-top: 1000px;
+    }
+    .header h1{
+        margin-top:-800px;
+    }
+       
+    }
+@media (min-width: 1600px){
+    .header{
+        padding-top: 1200px;
+    }
+    .header h1{
+        margin-top: -900px;
+    }
+    
 }
