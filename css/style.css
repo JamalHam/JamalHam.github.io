@@ -209,6 +209,10 @@ p{
     height: auto;
     margin: 0 auto;
 }
+
+footer p{
+    color: white;
+}
 @media (min-width: 500px){
 .header{
     padding-top: 325px;    
@@ -310,6 +314,7 @@ h3{
     justify-content: space-between;
     flex-wrap: nowrap;
     padding-top: 48px;
+    height: 325px;
     width: 80%;
     margin: 0 auto;
 }
@@ -325,14 +330,14 @@ h3{
     }
     
 .sample-work img{
-    width:250px;
-    height: 275px;
+    width: 40%;
+    height: auto;
     padding: 20px 0 20px 0;
     margin: 0 auto;
     margin: 0 auto;
 }    
 .sample-work p{
-    width: 70%;    
+    width: 90%;    
     }
 .header h1{
     text-align: left;
@@ -351,15 +356,32 @@ h3{
 footer{
     overflow: inherit;
     padding-top: 400px;
-    } 
+    }
+.btn-2{
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: skyblue;
+  font-size: 18px;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  margin: 10px 0 0 50px;
+  text-align: center;    
+}    
     
 }
+
 
 @media (min-width: 1000px){
     
 .sample-work{
     width: 900px;
     margin: 0 auto;
+    height: 400px;
     }
     
 .header{
