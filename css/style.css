@@ -7,6 +7,10 @@ transform: none;
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
 /* Mobile First Styling*/
+
+body{
+        display: none;
+}
 #svg1 {
   display: inline-block;
   position: absolute;
