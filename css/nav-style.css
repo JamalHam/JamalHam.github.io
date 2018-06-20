@@ -1,6 +1,6 @@
 .navigation {
   height: 60px;
-  background: #3d3d5c;
+  background: transparent;
 }
 .brand {
   position: absolute;
@@ -34,7 +34,7 @@ nav ul li a, nav ul li a:visited {
   display: block;
   padding: 0 20px;
   line-height: 60px;
-  background: #3d3d5c;
+  background: transparent;
   color: #fff;
   text-decoration: none;
 }
