@@ -426,7 +426,9 @@ header h1{
     header h1{
         margin-top:-100px;
     }
-       
+    #intro{
+     margin-top: 500px;   
+    }    
     }
 @media (min-width: 1600px){
    /* header{
@@ -436,4 +438,35 @@ header h1{
         margin-top: -100px;
     }
     
+}
+
+@media (min-width: 1700px){
+    header h1{
+        margin-top:100px;
+        margin-left: 100px;
+    }
+    
+    header h2{
+        margin-left: 100px;
+    }
+    
+    .btn-2{
+        margin-left: 145px;
+    }
+    
+   #intro{
+     margin-top: 600px;   
+    }   
+}
+
+@media (min-width: 1850px){
+   #intro{
+     margin-top: 700px;   
+    }   
+}
+
+@media (min-width: 2050px){
+   #intro{
+     margin-top: 900px;   
+    }   
 }
