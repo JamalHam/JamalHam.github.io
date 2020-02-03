@@ -102,6 +102,56 @@ p{
     margin: 0 auto;
     padding-top: 20px;
 }
+
+.sample-work-holder{
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.sample-work-holder:nth-of-type(even) {
+    background: #fafafa;
+}
+
+.sample-work li{
+    font-family: 'Roboto:500', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    width: 90%;
+    position: relative;
+    color: #8c8c8c;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.sample-work h4, .sample-work h5 {
+    font-family: 'Roboto:800', sans-serif;
+    color: #8c8c8c;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 40px auto 0 auto;
+    height: 200px;
+}
+
+.contact h2{
+    font-family: 'Roboto:900', sans-serif;
+    font-size: 24px;
+    line-height: 18px;
+    position: relative;
+    text-align: center;
+    color: #8c8c8c; 
+    margin: 0 auto;
+    padding-top: 30px
+}
+
 .about-p{
     padding-bottom: 40px;
 }
@@ -222,12 +272,31 @@ p{
     box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.49);
 }
 
-.btn-2:hover {
+.btn-2:hover, .btn-3:hover {
     opacity: 0.7;
     text-decoration: none;
     transition: all 0.5s ease;
 }
 
+.btn-3{
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: gray;
+    font-size: 18px;
+    background: #fff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center; 
+    margin-top: 10px;
+    -webkit-box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.49);
+    box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.49);
+}
 #intro{
     display: flex;
     flex-direction: column;
@@ -349,7 +418,7 @@ h3{
     } */
 .sub-skill img{
     margin: 0 auto;  
-    width: 18%
+    width: 18%;
     }  
 
 #projects h3{
@@ -357,23 +426,30 @@ h3{
     } 
 .sample-work{
     display: flex;
-    flex-direction: row;
+    flex-direction: ;
     justify-content: space-between;
     flex-wrap: nowrap;
     padding-top: 48px;
-    height: 325px;
     margin: 0 auto;
 }
     
 .btn{
     margin: 0 auto;    
-    }
+}
     
 .d-top{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
-    }
+}
+
+.d-top div{
+    width: 50%;
+}
+
+.d-top div li{
+    list-style-position: inside;
+}
     
 .sample-work img{
     width: auto;
@@ -383,24 +459,6 @@ h3{
 }    
 .sample-work p{
     width: 90%;    
-    padding-top: 8px;
-}
-
-.sample-work h4, .sample-work h5 {
-    font-family: 'Roboto:800', sans-serif;
-    color: #8c8c8c;
-    margin: 10px auto;
-    text-align: center;
-}
-
-.sample-work li{
-    font-family: 'Roboto:500', sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    width: 90%;
-    position: relative;
-    color: #8c8c8c;
-    margin: 0 auto;
     padding-top: 8px;
 }
 
@@ -440,7 +498,17 @@ footer{
     
 #intro{
      margin-top: 242px;   
-    }      
+}
+.sub-skill{
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto
+} 
+
+.sub-skill div{
+    margin: 0 auto;
+}
     
 }
 
@@ -449,7 +517,6 @@ footer{
 .sample-work{
     width: 86%;
     margin: 0 auto;
-    height: 400px;
     }
     
 header{
@@ -497,7 +564,6 @@ header h1{
 .sample-work{
     width: 60%;
     margin: 0 auto;
-    height: 400px;
     }    
 }
 
