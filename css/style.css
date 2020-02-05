@@ -53,7 +53,7 @@ header {
 
 }
 
-footer{
+footer {
     display: inline-block;
     position: relative;
     width: 100%;
@@ -62,7 +62,7 @@ footer{
     overflow: inherit;
 }
 
-header h1{
+header h1 {
     font-family: 'Roboto:900', sans-serif;
     font-size: 40px;
     position: relative;
@@ -73,7 +73,7 @@ header h1{
     z-index: 200px;
 }
 
-header h2{
+header h2 {
     font-family: 'Roboto:700', sans-serif;
     font-size: 24px;
     position: relative;
@@ -83,7 +83,7 @@ header h2{
     z-index: 200px;
 }
 
-h3{
+h3 {
    font-family: 'Roboto:700', sans-serif;
     font-size: 32px;
     position: relative;
@@ -91,7 +91,7 @@ h3{
     color: #8c8c8c; 
 }
 
-p{
+p {
    font-family: 'Roboto:500', sans-serif;
     font-size: 16px;
     line-height: 18px;
@@ -103,7 +103,7 @@ p{
     padding-top: 20px;
 }
 
-.sample-work-holder{
+.sample-work-holder {
     width: 100%;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -113,7 +113,7 @@ p{
     background: #fafafa;
 }
 
-.sample-work li{
+.sample-work li {
     font-family: 'Roboto:500', sans-serif;
     font-size: 16px;
     line-height: 18px;
@@ -131,7 +131,7 @@ p{
     text-align: center;
 }
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -141,7 +141,7 @@ p{
     height: 200px;
 }
 
-.contact h2{
+.contact h2 {
     font-family: 'Roboto:900', sans-serif;
     font-size: 24px;
     line-height: 18px;
@@ -152,18 +152,11 @@ p{
     padding-top: 30px
 }
 
-.about-p{
+.about-p {
     padding-bottom: 40px;
 }
-/*.about-p:not(:last-child){
-    margin-top: 30px;
-	border: 1px solid #8c8c8c;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-}*/
 
-#skills{
+#skills {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -172,39 +165,44 @@ p{
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.skill-layout{
+.skill-layout {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
 }
-.sub-skill img{
+.sub-skill img {
     width: 20%;
     height: auto;
+    margin: 32px auto;
 }
-.sub-skill div{
+.sub-skill div {
     width: 60%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.sub-skill div li{
+.sub-skill div li {
     height: 15px;
 }
 
-.sub-skill{
+.sub-skill {
     display: flex;
-    justify-content:flex-end;
+    justify-content: space-around;
     flex-direction: row;
     max-width: 1100px;
+    margin: 0 auto
+}
+
+.sub-skill div {
     margin: 0 auto;
 }
 
-.sub-skill p{
+.sub-skill p {
     width: 70%;
 }
 
-.sub-skill span{
+.sub-skill span {
     max-height: 44px;
     background-color: gray;
     padding: 15px 17px;
@@ -213,14 +211,14 @@ p{
     margin: 2px;
 }
 
-.sample-work{
+.sample-work {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 48px;
 }
-.sample-work img{
+.sample-work img {
     width: 80%;
     height: auto;
     padding: 20px 0 20px 0;
@@ -252,7 +250,7 @@ p{
     transition: all 0.3s ease;
 }
 
-.btn-2{
+.btn-2 {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
@@ -278,7 +276,7 @@ p{
     transition: all 0.5s ease;
 }
 
-.btn-3{
+.btn-3 {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
@@ -297,7 +295,7 @@ p{
     -moz-box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.49);
     box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.49);
 }
-#intro{
+#intro {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -305,255 +303,240 @@ p{
     margin-top: 110px;
 }
 
-#intro div{
+#intro div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 50px;
 }
-#circle{
+#circle {
     width: 50%;
     height: auto;
     margin: 0 auto;
 }
 
-footer p{
+footer p {
     color: white;
     padding-top: 60px;
 }
 
-@media (min-width: 500px){
-    header{
+
+#skill-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+@media (min-width: 500px) {
+    header {
         padding-top: 495px;    
         }
-    header h1{
+    header h1 {
             margin-top: -100px;
         }
-    #intro{
+    #intro {
             margin-top: 200px;
         }    
 }
 
-@media (min-width: 600px){
-    header{
+@media (min-width: 600px) {
+    header {
         padding-top: 525px;    
     }
 }
 
-@media (min-width: 700px){
-    header{
+@media (min-width: 700px) {
+    header {
         padding-top: 540px;    
     }
     
 }
 
-@media (min-width: 800px){
+@media (min-width: 800px) {
 
-header{
-    padding-top: 600px;    
+    header {
+        padding-top: 600px;    
     }
-    
-.about-p{
-    width:80%;
-    padding-bottom: 100px;
-    } 
-    
-#svg2 {
-  display: inline-block;
-  position:inherit;
-  margin-top: -225px;
-  margin-bottom: -100px;  
-}    
-    
-h3{
-    font-size: 40px;    
-    } 
-    
-#intro div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    padding-top: 0px; 
-    width: 75%;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-#intro p{
-    padding-top: 64px;    
-    }
-
-#circle{
-    width: 30%;
-    padding: 0px 25px 0px 25px;
-    height: auto;
-    margin: 0 auto;
-}    
-    
-#skills h3{
-    width: 100%;
-    padding-bottom: 40px;
-    } 
-    
-#skills{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 80%;
-} 
-#skill-layout{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    } 
-    
-/* .sub-skill{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    } */
-.sub-skill img{
-    margin: 0 auto;  
-    width: 18%;
-    }  
-
-#projects h3{
-    padding-top: 50px;    
-    } 
-.sample-work{
-    display: flex;
-    flex-direction: ;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    padding-top: 48px;
-    margin: 0 auto;
-}
-    
-.btn{
-    margin: 0 auto;    
-}
-    
-.d-top{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.d-top div{
-    width: 50%;
-}
-
-.d-top div li{
-    list-style-position: inside;
-}
-    
-.sample-work img{
-    width: auto;
-    height: 300px;
-    padding: 20px 0 20px 0;
-    margin: 0 auto;
-}    
-.sample-work p{
-    width: 90%;    
-    padding-top: 8px;
-}
-
-header h1{
-    text-align: left;
-    margin-top: -150px;
-    padding-left: 50px;
-    }  
-    
-header h2{
-    text-align: left;
-    padding-left: 50px;
+        
+    .about-p {
+        width:80%;
+        padding-bottom: 100px;
+        } 
+        
+    #svg2 {
+        display: inline-block;
+        position:inherit;
+        margin-top: -225px;
+        margin-bottom: -100px;  
     }    
-/*.btn{
-    margin-left: 200px;
-    margin-right: 200px;
-    } */ 
-footer{
-    overflow: inherit;
-    padding-top: 400px;
+        
+    h3 {
+        font-size: 40px;    
+    } 
+        
+    #intro div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding-top: 0px; 
+        width: 75%;
+        max-width: 1100px;
+        margin: 0 auto;
     }
-.btn-2{
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  font-family: Arial;
-  color: gray;
-  font-size: 18px;
-  background: #fff;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  width: 200px;
-  height: 40px;
-  margin: 40px 0 20px 50px;
-  text-align: center;    
-} 
-    
-#intro{
-     margin-top: 242px;   
-}
-.sub-skill{
-    justify-content: space-around;
-    flex-direction: column;
-    max-width: 1100px;
-    margin: 0 auto
-} 
 
-.sub-skill div{
-    margin: 0 auto;
-}
-    
+    #intro p {
+        padding-top: 64px;    
+    }
+
+    #circle {
+        width: 30%;
+        padding: 0px 25px 0px 25px;
+        height: auto;
+        margin: 0 auto;
+    }    
+        
+    #skills h3 {
+        width: 100%;
+        padding-bottom: 40px;
+    } 
+        
+    #skills {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80%;
+    } 
+        
+    .sub-skill img {
+        margin: 0 auto;  
+        width: 18%;
+    }  
+
+    #projects h3 {
+        padding-top: 50px;    
+    } 
+
+    .sample-work {
+        display: flex;
+        flex-direction: ;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding-top: 48px;
+        margin: 0 auto;
+    }
+        
+    .btn {
+        margin: 0 auto;    
+    }
+        
+    .d-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .d-top div {
+        width: 50%;
+    }
+
+    .d-top div li {
+        list-style-position: inside;
+    }
+        
+    .sample-work img {
+        width: auto;
+        height: 300px;
+        padding: 20px 0 20px 0;
+        margin: 0 auto;
+    }    
+
+    .sample-work p { 
+        width: 90%;    
+        padding-top: 8px;
+    }
+
+    header h1 {
+        text-align: left;
+        margin-top: -150px;
+        padding-left: 50px;
+        }  
+        
+    header h2{ 
+        text-align: left;
+        padding-left: 50px;
+        }    
+   
+    footer {
+        overflow: inherit;
+        padding-top: 400px;
+    }
+
+    .btn-2 {
+        -webkit-border-radius: 5;
+        -moz-border-radius: 5;
+        border-radius: 5px;
+        font-family: Arial;
+        color: gray;
+        font-size: 18px;
+        background: #fff;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        width: 200px;
+        height: 40px;
+        margin: 40px 0 20px 50px;
+        text-align: center;    
+    } 
+        
+    #intro {
+        margin-top: 242px;   
+    } 
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
     
-.sample-work{
+.sample-work {
     width: 86%;
     margin: 0 auto;
     }
     
-header{
+header {
     padding-top: 600px;    
     }   
     
-#intro{
+#intro {
      margin-top: 400px;   
     }
     
-    h1{
+    h1 {
         height:24px;
         line-height: 24px;
     }    
     
-    h2{
+    h2 {
         height: 20px;
         line-height: 20px;
         padding-top: 15px;
     }
     
-    .btn{
+    .btn {
         margin-top: 50px;
     }
 }
 
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
  
 /*header{
    padding-top: 800px;
     } */
-header h1{
+header h1 {
     margin-top: -100px;
     }
     
-.sample-work img{
+.sample-work img {
     width: auto;
     height: 350px;
     padding: 20px 0 20px 0;
@@ -561,60 +544,75 @@ header h1{
     margin: 0 auto;
 }
     
-.sample-work{
+.sample-work {
     width: 60%;
     margin: 0 auto;
     }    
 }
 
-@media (min-width: 1400px){
+@media (min-width: 1400px) {
     /*header{
         padding-top: 1000px;
     }*/
-    header h1{
+    header h1 {
         margin-top:-100px;
     }
-    #intro{
+    #intro {
      margin-top: 500px;   
     }    
     }
-@media (min-width: 1600px){
+@media (min-width: 1600px) {
    /* header{
         padding-top: 1200px;
     }*/
-    header h1{
+    header h1 {
         margin-top: -100px;
     }
     
 }
 
-@media (min-width: 1700px){
-    header h1{
+@media (min-width: 1700px) {
+    header h1 {
         margin-top:100px;
         margin-left: 100px;
     }
     
-    header h2{
+    header h2 {
         margin-left: 100px;
     }
     
-    .btn-2{
+    .btn-2 {
         margin-left: 145px;
     }
     
-   #intro{
+   #intro {
      margin-top: 600px;   
     }   
 }
 
-@media (min-width: 1850px){
-   #intro{
+@media (min-width: 1850px) {
+   #intro {
      margin-top: 700px;   
     }   
 }
 
-@media (min-width: 2050px){
-   #intro{
+@media (min-width: 2050px) {
+   #intro {
      margin-top: 900px;   
     }   
+}
+
+@media (max-width: 800px) {
+    #skill-layout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sub-skill {
+        justify-content: space-around;
+        flex-direction: column;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
 }
