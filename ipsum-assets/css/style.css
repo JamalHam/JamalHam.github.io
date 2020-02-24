@@ -1,0 +1,61 @@
+.title{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+.header{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		width: 100%;
+
+		justify-content: center;
+		height: 25%;
+}
+
+.header img{
+		height: 500px;
+		width: 100%;
+		object-fit: cover;
+		margin: 0 auto;
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.search-span{
+	max-width: 400px;
+}
+
+.dawgPen{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#supDawg{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#supDawg h2{
+	margin: 0 auto;
+}
+
+#copy{
+	height: 1px;
+	width: 1px;
+	opacity: 0;
+}
