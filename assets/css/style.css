@@ -25,6 +25,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 60%;
+    max-width: 750px;
 }
 
 #svg2 {
@@ -202,7 +204,7 @@ p {
     width: 70%;
 }
 
-.sub-skill span {
+.sub-skill span, .tags span { 
     max-height: 44px;
     background-color: gray;
     padding: 15px 17px;
@@ -211,9 +213,30 @@ p {
     margin: 2px;
 }
 
-.sample-work {
+.side{
+    width: 40%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.side img{
+    margin: 0 auto;
+}
+
+.tags {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 24px auto;
+}
+
+.sample-work {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 48px;
@@ -434,12 +457,13 @@ footer p {
         
     .d-top {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
     }
 
     .d-top div {
-        width: 50%;
+        width: 75%;
+        margin: 0 auto 24px auto;
     }
 
     .d-top div li {
@@ -447,11 +471,16 @@ footer p {
     }
         
     .sample-work img {
-        width: auto;
-        height: 300px;
+        width: 100%;
+        height: auto;
         padding: 20px 0 20px 0;
         margin: 0 auto;
     }    
+
+    #tp-phone {
+        width: 60%;
+        height: auto;
+    }
 
     .sample-work p { 
         width: 90%;    
@@ -537,15 +566,16 @@ header h1 {
     }
     
 .sample-work img {
-    width: auto;
-    height: 350px;
+    width: 100%;
+    height: auto;
     padding: 20px 0 20px 0;
     margin: 0 auto;
     margin: 0 auto;
 }
     
 .sample-work {
-    width: 60%;
+    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
     }    
 }
@@ -609,10 +639,26 @@ header h1 {
         justify-content: space-between;
     }
 
+    .sub-skill div {
+        width: 100%;
+    }
+
     .sub-skill {
         justify-content: space-around;
         flex-direction: column;
         max-width: 1100px;
+        margin: 0 auto;
+    }
+    .sample-work {
+        display: flex;
+        flex-direction: column;
+    }
+    .side {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .d-top {
+        width: 100%;
         margin: 0 auto;
     }
 }
