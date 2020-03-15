@@ -326,18 +326,18 @@ p {
     margin-top: 110px;
 }
 
-#intro div {
+#intro .about-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 50px;
 }
-#circle {
+/* #circle {
     width: 50%;
     height: auto;
     margin: 0 auto;
-}
+} */
 
 footer p {
     color: white;
@@ -350,6 +350,39 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
 } 
+
+.socialLinks{
+    width: 60%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: -4px;
+}
+.socialLinks div{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.Footer-copyright{
+    text-align: left !important;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+.socialLinks img{
+    z-index: 100;
+    width: 40px;
+    height: auto;
+    margin: 0 4px;
+    transition: ease 0.5s;
+}
+.socialLinks img:hover{
+    opacity: 0.6;
+}
 
 @media (min-width: 500px) {
     header {
@@ -398,7 +431,7 @@ footer p {
         font-size: 40px;    
     } 
         
-    #intro div {
+    #intro .about-section {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -413,13 +446,20 @@ footer p {
         padding-top: 64px;    
     }
 
-    #circle {
+    /* #circle {
         width: 30%;
         padding: 0px 25px 0px 25px;
         height: auto;
         margin: 0 auto;
-    }    
-        
+    }     */
+    .circle{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background-image: url("../images/face-crop.jpg");
+        background-size: cover;
+    }   
+
     #skills h3 {
         width: 100%;
         padding-bottom: 40px;
