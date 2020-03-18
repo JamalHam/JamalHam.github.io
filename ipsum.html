@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ipsum Generator</title>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="ipsum-assets/css/style.css">
+</head>
+<body>
+<div class="header">
+	<img src="ipsum-assets/images/maxresdefault.jpg" alt="yo dawg">
+</div>
+<br>
+<br>
+<div class="col-md-12 title"> 
+	<h1>Yo Dawg I heard you like Lorem Ipsum...</h1>
+</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="col-md-12 form-group main" >
+		<span class="input-group search-span">
+			<input type="number" class="form-control" id="paragraphs" placeholder="5">
+			<button type="button" class="btn btn-primary" onclick="ipsum()">Go!</button>
+			<button type="button" class="btn btn-danger" onclick="quickClear()">Clear</button>
+			<button type="button" class="btn btn-success" onclick="addToClipBoard()">Copy to Clipboard</button>
+		</span>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+<div class="dawgPen">	
+	<div class="col-md-12" id="supDawg"></div>
+</div>
+<textarea id="copy"></textarea>
+</body>
+    <script src="ipsum-assets/js/generator.js"></script>
+</html>
