@@ -114,6 +114,10 @@ p {
 .sample-work-holder:nth-of-type(even) {
     background: #fafafa;
 }
+.sample-work ul {
+    list-style-type: disc;
+    list-style-position: outside;
+}
 
 .sample-work li {
     font-family: 'Roboto:500', sans-serif;
@@ -443,7 +447,9 @@ footer p {
     }
 
     #intro p {
-        padding-top: 64px;    
+        padding-top: 64px;
+        font-size: 20px;
+        line-height: 24px;    
     }
 
     /* #circle {
@@ -506,9 +512,9 @@ footer p {
         margin: 0 auto 24px auto;
     }
 
-    .d-top div li {
+    /* .d-top div li {
         list-style-position: inside;
-    }
+    } */
         
     .sample-work img {
         width: 100%;
@@ -615,7 +621,7 @@ header h1 {
     
 .sample-work {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     }    
 }
